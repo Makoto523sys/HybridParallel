@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cmath>
 #include<omp.h>
+#include<mpi.h>
 
 double f(double);
 const long int N = 1e9;
